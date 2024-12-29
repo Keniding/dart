@@ -19,6 +19,7 @@ void main() {
       break;
     case dia.sabado || dia.domingo:
       print('El fin de semana');
+      break;
     default:
       print('No es ningun dia');
       break;
