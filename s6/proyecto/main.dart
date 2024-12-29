@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'controller/AgregarTarea.dart';
+import 'controller/EliminarTarea.dart';
 import 'controller/VerTarea.dart';
 
 void main() {
@@ -33,6 +34,8 @@ void main() {
   case '3':
     print('-------------------- ELIMINAR TAREA --------------------');
     print('Seleccionaste $seleccion');
+    final nombreTarea = stdin.readLineSync();
+    eliminarTarea(nombreTarea ?? 'Sin tareas');
     break;
   default:
     print('-------------------- OPCION NO VALIDA --------------------');

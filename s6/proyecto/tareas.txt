@@ -1,3 +1,2 @@
-
-Hola mundo
-Comprar pan|comprar pan en la maÃ±ana|noRealizada
+ Hola mundo
+ Comprar pan|comprar pan en la maÃ±ana|noRealizada
