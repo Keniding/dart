@@ -42,4 +42,13 @@ void main() {
     print('Seleccionaste $seleccion');
     break;
   }
+
+  if(Platform.isWindows) {
+    print('-------------------- FIN DEL PROGRAMA --------------------');
+    print('Presiona Enter para salir');
+    entrada.readLineSync();
+  }
+
+  // Para ejecución comando:
+  // dart compile exe main.dart
 }
